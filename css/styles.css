@@ -1,0 +1,264 @@
+*,*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    /* max-width: 100%; */
+}
+
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    color:white;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:#478ac9;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 20px;
+    color:white;
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color:black;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color:white;
+}
+.header{
+    margin: 22px 0;
+}
+
+.logo_img{
+    width:66px;
+    height:31px;
+}
+
+.wrapper{
+    width:80vw;
+    margin: 0 auto;
+    height: auto;
+}
+
+.btn{
+    width: 146px;
+    height: 46px;
+    border: white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+}
+
+
+.hero{
+    width:100%;
+    height: 100vh;
+    background-image:url(../images/hero.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero_text{
+    margin-left:53%;
+    padding-top: 250px;
+    width: 30%;
+}
+
+.we_are{
+    width:100%;
+    height:auto;
+    margin-bottom: 80px;
+}
+.wrapper_about{
+    margin-left: 90px;
+    width:94%;
+    /* border: 3px solid black; */
+}
+
+.about_container{
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+
+.text_half_about{
+    border: 3px solid black;
+    
+}
+
+.text_container_about{
+    margin-left: 30%;
+    margin-right: 5%;
+    /* border: 3px solid black; */
+    padding-top: 20%;
+    padding-bottom: 5%;
+    
+}
+.we_are h2{
+    color: black;
+}
+.we_are p{
+    color: black;
+}
+
+.about_link{
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.image_half_about{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    max-height:100%;
+}
+
+.services{
+    margin-bottom: 100px;
+}
+.services_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.services .text_half_services p{
+    color: black;
+}
+
+.text_container_services{
+    margin-left: 5%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    
+    
+}
+
+.image_half_services{
+    /* margin-left: 50px; */
+    display: grid;
+    column-gap:20px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.services_img_container{
+    position: relative;
+   
+}
+
+.services_layout{
+    width:auto;
+    height: auto;
+    position:absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    border: 2px solid blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.layout_text{
+    margin: 10px 20px;  
+}
+.portfolio{
+   width:100%;
+  
+
+}
+.portfolio_container{
+    height:70vh;
+    background-image: url(../images/concrete-loft-design.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.portfolio_cards{
+    height: 45vh;
+    width:72%;
+    margin: 0 auto;
+    padding-top:10%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-bottom: 100px;
+}
+
+.portfolio_card{
+    border: 2px solid white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits{
+    transform: translateY(-20%);
+    /* background-color:white; */
+}
+.benefits_card_column{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:0;
+}
+
+.benefits_card{
+    height:350px;
+    padding: 20px 20px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.benefits_icon{
+    width:64px;
+    height:64px;
+    margin-bottom: 20px;
+}
+
+.benefits h3{
+    color:black;
+}
+
+.benefits p{
+    color:black;
+}
+
+.benefits_card_text{
+    margin: 0 auto;
+}
